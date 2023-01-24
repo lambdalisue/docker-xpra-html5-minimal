@@ -1,7 +1,7 @@
 FROM ghcr.io/lambdalisue/xpra-minimal
 
-LABEL version="0.5"
-LABEL maintainer="florian.feldhaus@gmail.com"
+LABEL org.opencontainers.image.url https://github.com/users/lambdalisue/packages/container/package/xpra-html5-minimal
+LABEL org.opencontainers.image.source https://github.com/lambdalisue/docker-xpra-html5-minimal
 
 # skip interactive configuration dialogs
 ENV DEBIAN_FRONTEND noninteractive
