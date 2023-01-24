@@ -1,4 +1,4 @@
-FROM ffeldhaus/xpra-minimal
+FROM ghcr.io/lambdalisue/xpra-minimal
 
 LABEL version="0.5"
 LABEL maintainer="florian.feldhaus@gmail.com"
